@@ -59,7 +59,7 @@ include_once('modulos/controladorCliente.php');
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer; ">
-                                    Clientes
+                                    Personas
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="?cargar=registrarClientes">Registrar</a>
@@ -68,7 +68,7 @@ include_once('modulos/controladorCliente.php');
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer; ">
-                                        Productos
+                                        Elementos
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="?cargar=registrarProductos">Registrar</a>
@@ -77,7 +77,7 @@ include_once('modulos/controladorCliente.php');
                                 </li>                            
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer; ">
-                                        Empleados
+                                        Productos
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="?cargar=registrarEmpleados">Registrar</a>
