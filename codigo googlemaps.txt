@@ -1,0 +1,76 @@
+<?php
+ 	if(isset($_POST['consultar'])){
+	echo "
+      <script>
+        window.location.href='https://www.google.com/maps/dir/?api=1&origin=".$_POST['origen']."&destination=".$_POST['destino']."&travelmodel=".$_POST['viajar']."';
+      </script>";
+  }
+?>
+
+
+<!DOCTYPE HTML>
+<html>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Turismo Chiapaneco</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="form-background">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-6 col-md-offset-6" style="margin-top: 150px; margin-bottom: 100px;">
+                  <div class="modal-content">
+                    <div class="panel panel-primary col-md-12">
+                      <div class="section_tittle">
+                      <h1>Turismo Chiapaneco</h1>
+                      <h1>Busca los mejores lugares</h1>
+                      </div>
+                <table width="100%" style="line-height: 3.5; font-size: 1rem; background-color:#5e3be4;">
+				<form action=""  method="POST" id="formulario">
+					<tr class="espacio"> 
+					<td align="right"><lavel>Origen:</lavel></td>
+					<td><input type="text" class="form-control col-md-7" name="origen" id="origen" placeholder="Ingrese su origen" required autocomplete="off"></td>
+					</tr>
+					<tr>
+					<td align="right"><lavel>Destino:</lavel></td>
+					<td><select class="form-control col-md-7" name="destino" id="destino" placeholder="Ingrese su destino" required autocomplete="off"> 
+					<option value="@17.254167,-92.1203006,16">Cascada de agua azul</option>
+					<option value="@16.8276654,-93.1495689,12z">Cañon del sumidero</option>
+					<option value="">Ruinas de Tonina</option>
+					<option value="">Ruinas de palenque</option>
+					<option value="">Puerto Arista</option>
+					<option value="">Boca del cielo</option>
+					<option value="">Madre Sal</option>
+					<option value="@16.6109848,-92.2618237,10z">Lagunas de Montebello</option>
+					<option value="">Tlacotepec Oaxaca</option>
+					<option value="">El Aguacero</option>
+					<option value="">Bacalar</option>
+					<option value="">Selva Lacandona</option>
+					<option value="">Las Grutas</option>
+					</select>
+					</td>
+					</tr>
+					<tr>
+					<td align="right"><lavel>Forma de viajar:</lavel></td>
+					<td><select type="text" class="form-control col-md-7" name="viajar" id="viajar" required autocomplete="off">
+					<option value="driving">Vehiculo</option>
+                    <option value="walking">A pie</option>
+                    <option value="bicycling">En bicicleta</option>
+					</select></td>
+					</tr>
+					 <tr>
+                     <td align="center" colspan="2"><input type="submit"  class="btn_2" value="Enviar"  title="Enviar" name="consultar"></td>
+                     </tr>   
+				</form>
+			</table>
+		</section>
+	</body>
+</html>
