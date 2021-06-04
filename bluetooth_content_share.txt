@@ -1,0 +1,12 @@
+﻿ 
+Ubicaciones:
+
+{ubicaciones:[{"ID":"12edfgke","nombre":"lab. 1","ventilacion":false,
+"coordenadas":"12.4422,12.566"},
+{"ID":"12edfgke","nombre":"lab. 1","ventilacion":false,
+"coordenadas":"12.4422,12.566"}]}
+
+
+
+
+
